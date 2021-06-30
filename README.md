@@ -21,7 +21,7 @@ Method | Description |  Type | Prevention|
 #### examples
 
 ```
-curl "https://s.polarspetroll.repl.co?method=html&data=<>/>,test'"
+curl "https://s.polarspetroll.repl.co/api?method=html&data=<>/>,test'"
 ```
 output :
 ```json
@@ -32,7 +32,7 @@ output :
 ```
 ---
 ```
-curl "https://s.polarspetroll.repl.co/?method=shell&data=ls -la | cat /etc/passwd"
+curl "https://s.polarspetroll.repl.co/api?method=shell&data=ls -la | cat /etc/passwd"
 ```
 
 output:
@@ -46,7 +46,7 @@ output:
 ---
 
 ```
-curl "https://s.polarspetroll.repl.co/?method=path&data=../../../../../../../etc/passwd"
+curl "https://s.polarspetroll.repl.co/api?method=path&data=../../../../../../../etc/passwd"
 ```
 
 output:
