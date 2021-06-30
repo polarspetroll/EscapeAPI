@@ -7,7 +7,7 @@ meths = ["html", "shell", "path"]
 begin
 server = TCPServer.new port
 rescue => err
-  abort err
+  abort err.to_s
 end
 
 #######################################################################################
